@@ -2,7 +2,7 @@
 
 namespace DatabaseConnection
 {
-    internal class SQLConnection : DbConnection
+    public class SQLConnection : DbConnection
     {
         public SQLConnection(string connectionString) : base(connectionString)
         {
